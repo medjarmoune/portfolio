@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="./css/header.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body id="page-top">
+
+        <nav class="navbar-inverse navbar-fixed-top"  >
+    
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">JARMOUNE MOHAMED</a>
+                </div>
+                    <div class="collapse navbar-collapse" id="nav1">
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li class="active"><a href="#Portfolio">Portfolio </a></li>
+                            <li class="hidden"><a href="#page_top"></a></li>
+                            <li class="page-scroll"><a href="#Training">Training</a></li>
+                            <li class="dropdown page-scroll">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                            Projects
+                                    <span class="caret"></span>
+                                 </a>
+                                 <ul class="dropdown-menu" >
+                                    <li><a href="#projects">All Projects</a></li>
+                                    <li><a href="#Project1" data-toggle="modal" data-target="#modelId" >Project 1</a></li>
+                                    <li><a href="#Project2" data-toggle="modal" data-target="#modelId1">Project 2</a></li>
+                                    <li><a href="#Project3" data-toggle="modal" data-target="#modelId2">Project 3</a></li>
+                                    <li><a href="#Project4" data-toggle="modal" data-target="#modelId3">Project 4</a></li>
+                                    <li><a href="#Project5" data-toggle="modal" data-target="#modelId4">Project 5</a></li>
+                                    <li><a href="#Project6" data-toggle="modal" data-target="#modelId5">Project 6</a></li>
+                                 </ul>
+                               
+                            </li>
+                            <li class="page-scroll"><a href="#about">About</a></li>
+                            <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <!-- header -->
+        <header class="masthead text-white text-center hdr" >
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-5 img-circle" src="./img/medox.jpg" alt="" id="imgmedox">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">JARMOUNE MOHAMED</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon" id="starline"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Mobile & Web Developer - IT designer - Data Analytics - Deep Learing</p>
+            </div>
+        </header>
+
+       <div class="container-fluid bg-info" id="Training">
+           
+            <div class="row" style="margin-top: 1cm;">
+                <div class="col-lg-12">
+                    <h2 class="h2-about">Training</h2>
+                </div>
+                <div class="col-lg-12 divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+            <div id="carousel" class="carousel slide" data-ride="carousel" >
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <img src="./img/razi.jpg"  width="450" height="340px">
+                        <br>
+                        <div class="carousel-caption ">
+                            <h4>BACCALAUREATE</h4>
+                            <!-- BACCALAUREATE -->
+                            <p>
+                                <!-- physical science and chemistry -->
+                                PHYSICAL SCIENCE AND CHEMISTRY
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/fssmm.jpg"  width="450" height="100px">
+                        <br>
+                        <div class="carousel-caption">
+                            <h4>DEUG & LICENCE</h4>
+                            <p>
+                                PHYSICS - MATH - IT - ELECTRONICS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/inpt.jpg"  width="450" height="100px">
+                        <br>
+                        <div class="carousel-caption ">
+                            <h4>STUDENT ENGINEER</h4>
+                            <p>
+                                INNOVATION ENGINEERING AND AMOA - DATA SCIENCE - DL
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        
+                    </a>
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        
+                    </a>
+                </div>
+            </div>
+       </div>
+
+       <section class="page-section portfolio" id="projects">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <div class="text-center">
+                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Projects</h2>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center" >
+                <!-- Portfolio Items-->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-5 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto justify-content-center portfolio-position" data-toggle="modal" data-target="#modelId" >
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>eCollect</p>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/ecollect.jpg" alt="Log Cabin"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto portfolio-position" data-toggle="modal" data-target="#modelId1" >
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>Mobile Application</p>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/mobile.jpg" alt="Tasty Cake"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto portfolio-position" data-toggle="modal" data-target="#modelId2" >
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" >
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>SOA - hierarchical clustering</p>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div><img class="img-fluid" src="./img/SOA.jpg" alt="Circus Tent"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto portfolio-position" data-toggle="modal" data-target="#modelId3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>eCommerce Web</p>
+                                <i class="fas fa-plus fa-3x">
+                            </i></div>
+                        </div>
+                        <img class="img-fluid" src="./img/web.jpg" alt="Controller"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto portfolio-position" data-toggle="modal" data-target="#modelId4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>Odoo 12/13</p>
+                                <i class="fas fa-plus fa-3x">
+                            </i></div>
+                        </div>
+                        <img class="img-fluid" src="./img/odoo.jpg" alt="Locked Safe"/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center portfolio-margin">
+                    <div class="portfolio-item mx-auto portfolio-position" data-toggle="modal" data-target="#modelId5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white portfolio-margin-top">
+                                <p>BUSINESS REQUIREMENT ENGINEERING</p>
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="./img/veille.jpg" alt="Submarine"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Modal -->
+    <div class="modalportfolio modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">eCollect</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/ecollect.jpg" alt="eCollect"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">In this project we have applied the five stages of design thinking on idea concerning nature, for the purpose of minimizing the spread of waste, through good teamwork, we have come out with an effective solution that allows to deminue this phenomenon, c 'is to realize a mobile application allows to make the communication between the companies and the people interested by the recycling of the waste and the inhabitants.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/eCollect" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalportfolio modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">Mobile Application</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/mobile.jpg" alt="Mobile Application"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">The objective of this project is to create complex graphical interfaces using layouts, views, Listview, Menu and the custom adapter, and the manipulation of a simple database by Room Database to manage login and passwords via the interface, and finally the use of the GoogleMaps API.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/Mobile.git" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalportfolio modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">SOA - hierarchical clustering</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/SOA.jpg" alt="SOA - hierarchical clustering"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">SOA project in which we used the Flask framework to create web interfaces (client) which communicate with a server (web service), in order to display the result of machine learning algorithm (hierarchical clustering) applied on a database.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/SOA.git" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalportfolio modal fade" id="modelId3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">eCommerce Web</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/web.jpg" alt="eCommerce Web"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">the objective of this project is to create a website contains Authentication access, and we chose to make a ecommerce website by using the framework Bootstrap et le phpmyadmin.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/Web.git" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalportfolio modal fade" id="modelId4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">Odoo 12/13</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/odoo.jpg" alt="Odoo 12/13"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">
+                        In this project we took advantage of how ERP utility in general and odoo in particular, To understand their operations and their architectures in order to have a precise idea on the utility and the necessity of using ERP.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/Odoo.git" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalportfolio modal fade" id="modelId5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="close " type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times closeporfolio"></i></span>
+                </button>
+                <h2 class="portfolio-modal-title text-secondary mb-0" style="text-align: center;">BUSINESS REQUIREMENT ENGINEERING</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <img class="img-fluid rounded mb-5" src="./img/veille.jpg" alt="BUSINESS REQUIREMENT ENGINEERING"/>
+                    </div>
+                    <br>
+                    <p class="mb-5" style="text-align: justify;">
+                        In this project we have the Enterprise architect software, to do the monitoring analysis and build in different packages the class and sequence diagrams and uses cases.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/medjarmoune/Veille.git" style="float: left;">More Detail</a>
+                    <button class="btn btn-success" id="buttonclose" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <div class="container-fluid col-lg-12 aboutcontact about" id="about">
+                <!-- About Section Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-about">ABOUT</h2>
+                    </div>
+                </div>
+
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                
+                <div class="row">
+                    <div class="col-lg-12 ml-auto">
+                        <div class="row " >
+                            <div class="col-lg-2 " >
+                                <img class="img-circle center masthead-avatar mb-5 img-circle" src="./img/medox.jpg"  
+                                alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <p style="text-align:justify ; font-size:16px;">My name is <span style="color: #ffffff;">JARMOUNE Mohamed</span>, currently I am a student engineer at the national institute of the posts and telecommunications, in the field of innovation engineer and AMOA, which allows me to learn knowledge in the IT development, data science and in machines learning, I consider myself a good developer since I have skills in full-stack development and mobile development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid col-lg-12 aboutcontact contact" id="contact">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0 text-white">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line "></div>
+                    <div class="divider-custom-icon "><i class="fas fa-star text-white"></i></div>
+                    <div class="divider-custom-line "></div>
+                </div>
+                <!-- Contact Section Content-->
+               
+                <div class="row justify-content-center" >
+                    <div class="col-lg-8 d-flex justify-content-center" style="  left: 20%;">
+                        <div class="col-lg-4" >
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                                <div class="text-muted">Phone</div>
+                                <div class="lead font-weight-bold " style="color: #0a95f1;">(+212) 642-018619</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                                <div class="text-muted">Email</div><a class="lead font-weight-bold " style="color: #0a95f1;" href="mailto:mjarmoune1@gmail.com">mjarmoune1@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <footer class="footer text-center" style="background-color: #2c3e50;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Location-->
+                        <div class="col-lg-4 mb-5 mb-lg-0 text-white">
+                            <h4 class="mb-4">LOCATION</h4>
+                            <p class="pre-wrap lead mb-0">10.GH21.R13 Almanzah Casablanca</p>
+                        </div>
+                        <!-- Footer About Text-->
+                        <div class="col-lg-4 text-white">
+                        </div>
+                         <!-- Footer Social Icons-->
+                         <div class="col-lg-4 mb-5 mb-lg-0 text-white">
+                            <h4 class="mb-4 " >AROUND THE WEB</h4>
+                            <a class="btn btn-outline-light btn-social mx-1 text-white" href="https://web.facebook.com/Med.jarMounE/"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1 text-white" href="https://www.linkedin.com/in/mohamed-jarmoune-85a82b194/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1 text-white" href="https://github.com/medjarmoune"><i class="fab fa-fw fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
